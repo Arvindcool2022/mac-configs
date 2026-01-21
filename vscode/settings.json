@@ -1,0 +1,50 @@
+{
+  "cmake.generator": "Ninja",
+  "cmake.configureOnOpen": false,
+  "cmake.buildDirectory": "${workspaceFolder}/build",
+  "cmake.installPrefix": "${workspaceFolder}/install",
+  "cmake.sourceDirectory": "${workspaceFolder}",
+  "clangd.path": "/opt/homebrew/opt/llvm/bin/clangd",
+  "clangd.arguments": ["--background-index"],
+  "C_Cpp.intelliSenseEngine": "Disabled",
+  "editor.formatOnSave": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll": "explicit",
+  },
+  "files.exclude": {
+    "**/build": true,
+    "**/install": true,
+    "**/.vscode": false,
+  },
+  "search.exclude": {
+    "**/build": true,
+  },
+  "terminal.integrated.defaultProfile.osx": "zsh",
+  "cmake.configureSettings": {
+    "CMAKE_EXPORT_COMPILE_COMMANDS": "ON",
+  },
+  "[cpp]": {
+    "editor.defaultFormatter": "ms-vscode.cpptools",
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+  },
+  "workbench.iconTheme": "catppuccin-mocha",
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+  },
+  "code-runner.runInTerminal": true,
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+  },
+  "workbench.colorTheme": "Catppuccin Mocha",
+  "editor.fontFamily": "JetBrainsMono Nerd Font, JetBrains Mono, Menlo, monospace",
+  "editor.fontLigatures": true,
+  "editor.fontSize": 14,
+  "editor.lineHeight": 1.5,
+
+  "terminal.integrated.fontFamily": "JetBrainsMono Nerd Font",
+}
